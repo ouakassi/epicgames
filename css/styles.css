@@ -63,7 +63,7 @@ a {
 .horizontal-nav {
   background-color: #121212;
   position: fixed;
-  height: 15%;
+  height: 10rem;
   width: 85%;
   z-index: 1;
   display: flex;
@@ -186,7 +186,7 @@ input {
     margin-right: 0rem;
     font-size: 3rem; }
   .horizontal-nav {
-    height: 16%;
+    height: 10rem;
     width: 100%;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -220,7 +220,7 @@ input {
     padding: 11rem .5rem 3rem 11rem; }
   .horizontal-nav {
     position: fixed;
-    height: 17%;
+    height: 10rem;
     width: 100%;
     z-index: 1;
     flex-flow: row wrap;
@@ -230,7 +230,7 @@ input {
 @media screen and (max-width: 940px) {
   .horizontal-nav {
     position: fixed;
-    height: 17%;
+    height: 10rem;
     width: 100%;
     z-index: 1;
     flex-flow: row wrap;
@@ -248,7 +248,7 @@ input {
     visibility: hidden; }
   .horizontal-nav {
     position: fixed;
-    height: 17%;
+    height: 12rem;
     width: 100%;
     z-index: 1;
     flex-flow: row wrap;
@@ -281,7 +281,7 @@ input {
 
 @media screen and (max-width: 600px) {
   .horizontal-nav {
-    height: 18%;
+    height: 14rem;
     width: 100%;
     z-index: 1;
     flex-flow: row wrap;
